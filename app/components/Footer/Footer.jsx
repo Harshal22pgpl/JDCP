@@ -158,7 +158,7 @@ export default function Footer() {
                   <li className="p-2">
                     <a href="https://www.ics-nitrkl.in/">
                       {" "}
-                     Why LNCT
+                     Why JDCP
                     </a>
                   </li>
                   <li className="p-2">
