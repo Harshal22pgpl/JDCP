@@ -283,13 +283,13 @@ export default function Home() {
     backgroundSize: "cover",
   }}
 >
-  <div className="container flex flex-col lg:flex-row items-center bg-opacity-75 bg-blue-900 h-auto lg:h-[580px] p-4">
+  <div className="container flex flex-col lg:flex-row items-center bg-opacity-75 bg-pink-900 h-auto lg:h-[580px] p-4">
     <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4">
       <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
         Academic Programme
       </h2>
       <ul className="space-y-2 bg-white rounded-xl p-4 w-full lg:w-auto">
-        <li className="bg-white rounded-lg text-black hover:bg-blue-400">
+        <li className="bg-white rounded-lg text-black hover:bg-pink-400">
           <button
             onClick={() => handleTabClick("undergraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -300,7 +300,7 @@ export default function Home() {
             UNDERGRADUATE
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-blue-400">
+        <li className="bg-white rounded-lg text-black hover:bg-pink-400">
           <button
             onClick={() => handleTabClick("postgraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -311,7 +311,7 @@ export default function Home() {
             POSTGRADUATE
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-blue-400">
+        <li className="bg-white rounded-lg text-black hover:bg-pink-400">
           <button
             onClick={() => handleTabClick("doctoral")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -322,7 +322,7 @@ export default function Home() {
             DOCTORAL
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-blue-400">
+        <li className="bg-white rounded-lg text-black hover:bg-pink-400">
           <button
             onClick={() => handleTabClick("executive")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -333,7 +333,7 @@ export default function Home() {
             EXECUTIVE PH.D.
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-blue-400">
+        <li className="bg-white rounded-lg text-black hover:bg-pink-400">
           <button
             onClick={() => handleTabClick("parttime")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -420,7 +420,7 @@ export default function Home() {
             <i>--Michael Springer--</i>
           </h5>
         </div>
-        <div class="item flex-1 w-full bg-blue-900 p-6 pt-14  items-center text-center ">
+        <div class="item flex-1 w-full bg-pink-900 p-6 pt-14  items-center text-center ">
           <h2 className="font-semibold text-2xl">Word of the Day</h2>
           <h5 className="font-semibold text-xl py-5">कार्यात्मक</h5>
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
@@ -428,13 +428,8 @@ export default function Home() {
       </section>
       <section className=" w-11/12 mx-auto mt-10">
         <div
-          className=""
-          style={{
-            backgroundImage: "url('/svg/linessvg.svg')",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
+          className=" bg-[#e92b61]"
+         
         >
           <div className=" w-8/9   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  ">
             <div className="  ">
@@ -443,7 +438,7 @@ export default function Home() {
                 targetValue={2000}
                 speed={0.001}
                 text="Highest Package"
-                textColor="text-blue-600"
+                textColor="text-pink-600"
                 title="First Counter"
                 color=""
               />
@@ -489,7 +484,7 @@ export default function Home() {
                 targetValue={2000}
                 speed={0.001}
                 text="NIRF All India Rank"
-                textColor="text-blue-600"
+                textColor="text-pink-600"
                 title="First Counter"
                 color=""
               />
@@ -531,7 +526,7 @@ export default function Home() {
         </div>
       </section>
       <section className="lg:w-11/12 w-full mx-auto">
-        <div className=" bg-slate-900">
+        <div className=" bg-red-900">
           <div
             //
             className="flex lg:flex-row flex-col "

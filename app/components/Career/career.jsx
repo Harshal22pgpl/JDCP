@@ -158,7 +158,7 @@ export default function Career() {
             key={number + 1}
             onClick={() => paginate(number + 1)}
             className={`mx-2 px-3 py-1 border rounded-md ${
-              currentPage === number + 1 ? "bg-blue-500 text-white" : "bg-white text-blue-500"
+              currentPage === number + 1 ? "bg-pink-500 text-white" : "bg-white text-pink-500"
             }`}
           >
             {number + 1}

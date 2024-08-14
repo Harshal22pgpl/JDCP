@@ -9,7 +9,7 @@ export default function Footer() {
       {path.includes("admin") || path.includes("payments") ? (
         <></>
       ) : (
-        <footer class="bg-gray-800 text-white py-12">
+        <footer class="bg-pink-900 text-white py-12">
           <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="item">
               <p class="text-center">

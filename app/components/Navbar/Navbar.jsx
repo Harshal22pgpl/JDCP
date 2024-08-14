@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const collegeNames = ["LNCT ", " एलएनसीटी "];
+  const collegeNames = ["JDCP ", " जे डी सी पी "];
 
   useEffect(() => {
     // Update isSmallScreen state on window resize
@@ -49,7 +49,7 @@ export default function Navbar() {
       name: "INSTITUTE",
       values: [
         {
-          name: "Welcome to LNCT",
+          name: "Welcome to JDCP",
           link: "/institute/welcome",
         },
         {
@@ -215,7 +215,7 @@ export default function Navbar() {
       name: "Students",
       values: [
         {
-          name: "Why LNCT",
+          name: "Why JDCP",
           link: "/why_lnct",
         },
         {
@@ -360,7 +360,7 @@ export default function Navbar() {
           name: "Institute",
           subchild: [
             {
-              name: "Welcome to LNCT",
+              name: "Welcome to JDCP",
               link: "/institute/welcome",
             },
             {
@@ -534,7 +534,7 @@ export default function Navbar() {
           name: "Prospective Students",
           subchild: [
             {
-              name: "Why LNCT",
+              name: "Why JDCP",
               link: "/why_lnct",
             },
             {
@@ -715,7 +715,7 @@ export default function Navbar() {
         <></>
       ) : (
         <div className="text-white z-50 w-full">
-          <div className="flex items-center justify-between p-2 bg-blue-900">
+          <div className="flex items-center justify-between p-2 bg-pink-900">
             <div className="items-center gap-4 hidden lg:flex">
               <p>Admissions</p>
               <p>Placement</p>
@@ -768,7 +768,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="bg-gradient-to-r from-indigo-500 to-blue-800 w-full">
+          <div className="bg-gradient-to-r from-pink-500 to-pink-800 w-full">
             <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
               <div className="flex items-center gap-4 lg:flex-row flex-col">
                 <div className="w-[90px] h-[90px] relative">
@@ -798,8 +798,8 @@ export default function Navbar() {
           </div>
 
           {!isSmallScreen && (
-            <div className="w-full bg-blue-900">
-              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-blue-900 relative items-center">
+            <div className="w-full bg-pink-900">
+              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-pink-900 relative items-center">
                 <Link href="/" className="text-3xl p-1">
                   <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
                 </Link>
@@ -840,8 +840,8 @@ export default function Navbar() {
                     <div key={index} className="relative group z-50">
                       <Link
                         href="#"
-                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-blue-700 flex gap-2 items-center px-3 py-4  ${
-                          openSubMenuId === item.main ? "bg-blue-800" : ""
+                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-pink-700 flex gap-2 items-center px-3 py-4  ${
+                          openSubMenuId === item.main ? "bg-pink-800" : ""
                         }`}
                         onClick={() => toggleSubMenu(item.main)}
                       >
@@ -857,7 +857,7 @@ export default function Navbar() {
                       >
                         {item.child.map((link, index) => (
                           <div key={index} className="p-2">
-                            <h4 className="text-blue-700 font-bold text-lg">
+                            <h4 className="text-pink-700 font-bold text-lg">
                               <Link href="#">{link.name}</Link>
                             </h4>
                             <ul className="mt-2 space-y-2">
@@ -925,7 +925,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                           onClick={() => toggleDropdown(index)}
                           className="flex items-center cursor-pointer justify-between p-5"
                         >
-                          <p className="font-bold text-blue-600">{name}</p>
+                          <p className="font-bold text-pink-600">{name}</p>
                           {values.length > 0 && (
                             <div
                               className={`w-6 h-6 transition-transform border-2 ${
@@ -960,7 +960,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                                   onClick={() =>
                                     handleSidebarItemClick(value.link)
                                   }
-                                  className="p-3 shadow-md rounded-lg bg-blue-100 text-blue-600"
+                                  className="p-3 shadow-md rounded-lg bg-pink-100 text-pink-600"
                                 >
                                   {value.name}
                                 </div>

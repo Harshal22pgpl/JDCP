@@ -178,17 +178,17 @@ const EventDetail = ({ newsData, schoolUuid = "" }) => {
                           {item.type}
                         </h1>
                         {item.type === "event" && (
-                          <h1 className="px-4 text-blue-900">
+                          <h1 className="px-4 text-pink-900">
                             {moment(item.startDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}
                         {item.type === "notice" && (
-                          <h1 className="px-4 text-blue-900">
+                          <h1 className="px-4 text-pink-900">
                             {moment(item.publishedDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}
                         {item.type === "news" && (
-                          <h1 className="px-4 text-blue-900">
+                          <h1 className="px-4 text-pink-900">
                             {moment(item.publishedDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}

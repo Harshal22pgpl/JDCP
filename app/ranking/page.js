@@ -35,7 +35,7 @@ export default function page() {
 <h1 className=" font-bold text-3xl">19</h1>
 <h2 className=" text-base">Pharmacy</h2>
                 </div>
-                <div className="p-4 bg-sky-100 rounded flex gap-2 items-center">
+                <div className="p-4 bg-red-100 rounded flex gap-2 items-center">
 <h1 className=" font-bold text-3xl">24</h1>
 <h2 className=" text-base">Management</h2>
                 </div>

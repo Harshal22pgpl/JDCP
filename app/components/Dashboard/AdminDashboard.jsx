@@ -245,7 +245,7 @@ const Dashboard = ({ clientProps }) => {
           <h3 className="text-lg font-semibold">
             Task summaries of recent sprints
           </h3>
-        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-blue-400 p-2 w-[300px]">View Waiting For Approval</h2></Link>
+        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-pink-400 p-2 w-[300px]">View Waiting For Approval</h2></Link>
         </div>
         <div className="md:col-span-2 xl:col-span-1">
           <div className="rounded bg-gray-200 dark:bg-gray-800 p-3  min-h-[350px] overflow-y-auto">
